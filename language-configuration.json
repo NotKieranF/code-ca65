@@ -14,5 +14,12 @@
         ["(", ")"],
         ["\"", "\""],
         ["'", "'"]
-    ]
+    ],
+    // directives that start and end folding sections
+    "folding": {
+        "markers": {
+            "start": "^\\s*\\.(enum|macro|mac|proc|scope|struct|union|repeat|ENUM|MACRO|MAC|PROC|SCOPE|STRUCT|UNION|REPEAT)",
+            "end": "^\\s*\\.(endenum|endmacro|endmac|endproc|endscope|endstruct|endunion|ENDENUM|ENDMACRO|ENDMAC|ENDPROC|ENDSCOPE|ENDSTRUCT|ENDUNION)"
+        }
+    }
 }
