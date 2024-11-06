@@ -137,7 +137,7 @@
 		"pseudofunctions": {
 			"patterns": [{
 				"name": "keyword.control.pseudofunction.ca65",
-				"match": "\\.(?i:bankbyte|blank|concat|const|hibyte|hiword|ident|left|lobyte|loword|match|mid|ref|referenced|right|sizeof|strat|sprintf|string|strlen|tcount|xmatch)\\b"
+				"match": "\\.(?i:bank|bankbyte|blank|concat|const|hibyte|hiword|ident|ismnem|ismnemonic|left|lobyte|loword|match|mid|ref|referenced|right|sizeof|strat|sprintf|string|strlen|tcount|xmatch)\\b"
 			}]
 		},
 		"controlcommands": {
@@ -150,14 +150,14 @@
 			"patterns": [{
 				"name": "keyword.control.block.ca65",
 				"contentName": "entity.name.function.ca65",
-				"begin": "\\.(?i:enum|macro|mac|proc|scope|struct)\\s*",
+				"begin": "\\.(?i:enum|macro|mac|proc|scope|struct|union)\\s*",
 				"end": "\\s"
 			}]
 		},
 		"blockends": {
 			"patterns": [{
 				"name": "keyword.control.block.ca65",
-				"match": "\\.(?i:endenum|endmacro|endmac|endproc|endscope|endstruct)\\b"
+				"match": "\\.(?i:endenum|endmacro|endmac|endproc|endscope|endstruct|endunion)\\b"
 			}]
 		},
 		"labels": {
